@@ -1,0 +1,290 @@
+/* Define estilos padrão para todos os elementos na página */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos para o elemento com ID "saibaMais" */
+#saibaMais {
+  margin-top: 3vh;
+}
+
+/* Estilos para o elemento com ID "inscrição" */
+#inscrição {
+  margin-top: 3vh;
+  background-color: #e0e0e0;
+}
+
+/* Estilos para o elemento com ID "frontend" */
+#frontend {
+  margin-top: 3vh;
+  background-color: #e0e0e0;
+}
+
+/* Estilos para o elemento com ID "backend" */
+#backend {
+  margin-top: 3vh;
+  background-color: #e0e0e0;
+}
+
+/* Estilos para o elemento com ID "fullStack" */
+#fullStack {
+  margin-top: 3vh;
+  background-color: #e0e0e0;
+}
+
+/* Esconde os ícones de controle do carrossel */
+.carousel-control-next-icon {
+  display: none;
+}
+
+.carousel-control-prev-icon {
+  display: none;
+}
+
+/* Estilos para o elemento com ID "basic-nav-dropdown" */
+#basic-nav-dropdown {
+  color: white !important;
+}
+
+/* Estilos para elementos iframe */
+iframe {
+  width: 90vw;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  height: calc(80vw * 0.5);
+}
+
+/* Estilos para elementos com a classe "patrocinadores" */
+.patrocinadores {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+/* Estilos para elementos img */
+img {
+  width: 15vw;
+  padding: 10px;
+}
+
+/* Estilos para parágrafos (p) e cabeçalhos (h3) */
+p,
+h3 {
+  font-family: "Mochiy Pop One", sans-serif;
+  font-family: "Tilt Neon", sans-serif;
+}
+
+/* Define um índice z de -1 para o elemento com a classe "carousel-indicators" */
+.carousel-indicators {
+  z-index: -1;
+}
+
+/* Estilos para o elemento com ID "professores" */
+#professores {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Define um índice z de -1 para elementos com a classe "accordion" */
+.accordion {
+  z-index: -1;
+}
+
+/* Estilos para o elemento com ID "formularioEnviado" */
+#formularioEnviado {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 70vh;
+}
+
+/* Estilos para o elemento com ID "discord" */
+#discord {
+  position: fixed;
+  line-height: 10vw;
+  border-radius: 50%;
+  width: 10vh;
+  height: 10vh;
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: 10vh;
+  right: 2vh;
+}
+
+/* Estilos para o elemento com ID "fonteAcessibilidade" */
+#fonteAcessibilidade {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 30vh;
+  height: 20vh;
+  font-size: 10px;
+  background-color: black;
+  color: gray;
+  border-radius: 10px;
+  opacity: 0.8;
+  font-weight: bolder;
+  right: 2vh;
+  top: 2vh;
+  position: fixed;
+  z-index: 1;
+}
+
+/* Estilos para elementos dentro do elemento com ID "fonteAcessibilidade" */
+#fonteAcessibilidade div {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+}
+
+/* Estilos para cabeçalhos (h5) */
+h5 {
+  color: white;
+}
+
+/* Define um índice z de -1 para o elemento "main" */
+main {
+  z-index: -1;
+}
+
+/* Estilos para elementos com a classe "logo" */
+.logo {
+  width: 10vw;
+}
+
+/* Estilos para a classe .Container-section */
+.Container-section {
+  padding: 3%;
+  text-align: center;
+  background-color: #ccc;
+}
+
+/* Estilos para a classe .ListaMissao */
+.ListaMissao {
+  display: flex;
+  flex-direction: column;
+  align-items: last baseline; /* Atenção: 'last baseline' não é uma propriedade válida */
+  list-style: none;
+  line-height: 2;
+  padding: 20px;
+  text-align: justify;
+}
+
+/* Estilos para a classe .Container-card */
+.Container-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+/* Estilos para a classe .Card */
+.Card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  width: 20vw;
+  line-height: 1.25;
+  background: linear-gradient(to top, #1579e0, black);
+  color: #f5f5f5;
+  border-radius: 12px;
+  box-shadow: 0px 0px 8px #333;
+}
+.Card h3 {
+  font-size: 2vw;
+}
+
+.Card p {
+  font-size: 1.6vw;
+}
+
+/* Estilos para a classe .Btn */
+.Btn {
+  max-width: 100%;
+  padding: 0.5em 1em;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+/* Estilos para a classe .BtnAction */
+.BtnAction {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 1em 2em;
+  box-shadow: 0px 0px 8px #333;
+}
+
+/* Estilos para a classe .Btn ao passar o mouse sobre */
+.Btn:hover {
+  opacity: 70%;
+}
+
+/* Estilos para a classe .imgTalentos */
+.imgTalentos {
+  width: 20vw;
+  border-radius: 6px;
+}
+
+/* Estilos para elementos <iframe> dentro da classe .Container-section */
+.Container-section iframe {
+  width: 65vw;
+  height: 80vh;
+  margin-top: 20px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 8px #333;
+}
+
+/* Estilos para telas com largura máxima de 992px */
+@media only screen and (max-width: 992px) {
+  /* Ajusta a posição do elemento com ID "fonteAcessibilidade" */
+  #fonteAcessibilidade {
+    top: auto;
+    left: 2vh;
+    bottom: 10vh;
+  }
+  /* Ajusta a largura para elementos com a classe "logo" */
+  .logo {
+    width: 30vw;
+  }
+}
+
+/* Estilos para telas com largura máxima de 600px */
+@media only screen and (max-width: 600px) {
+  /* Ajusta a posição do elemento com ID "discord" */
+  #discord {
+    position: fixed;
+    line-height: 10vw;
+    border-radius: 50%;
+    width: 10vh;
+    height: 10vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    bottom: 10vh;
+    right: 5vh;
+  }
+
+  /* Ajusta a posição do elemento com ID "fonteAcessibilidade" */
+  #fonteAcessibilidade {
+    top: auto;
+    left: 2vh;
+    bottom: 10vh;
+  }
+  /* Ajusta o layout para elementos com as classes "patrocinadores" e "professores" */
+  .patrocinadores,
+  #professores {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* Ajusta a largura para elementos img */
+  img {
+    width: 100%;
+  }
+}
